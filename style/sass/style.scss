@@ -1,0 +1,66 @@
+$ColorTitre: white;
+$ColorH2H4: #8E44AD;
+$ColorH1Cadre: #2471A3;
+$TaillePoliceH5H4H6: 20px;
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////// CODE CSS ////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+body{
+	background-color: lightgrey;
+    margin: 15px 15px 15px 15px;
+}
+img{
+	width: 270px;
+	height: 300px;
+    border-radius: 20px;
+}
+
+h1{
+	color: $ColorH1Cadre;
+}
+
+#cadre{
+	border: 1px solid $ColorH1Cadre;
+	color: $ColorH1Cadre;
+	text-align: center;
+}
+
+.h5{
+	font-size: $TaillePoliceH5H4H6;
+}
+
+#COMPETENCES{
+	border: 2px dotted $ColorH1Cadre;
+}
+
+h2{
+	color: $ColorH2H4;
+}
+
+p{
+	font-size: 18px;
+}
+
+h4{
+    @extend .h5;
+    color: $ColorH2H4;
+}
+
+h6{
+    font-size: $TaillePoliceH5H4H6;
+}
+
+#CENTRE{
+    background-color: $ColorH1Cadre;
+    color: $ColorTitre;
+}
+
+a{
+    color: black;
+}
+
+#titre{
+	color: $ColorTitre;
+}

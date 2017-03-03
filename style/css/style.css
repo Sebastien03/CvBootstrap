@@ -1,0 +1,44 @@
+body {
+  background-color: lightgrey;
+  margin: 15px 15px 15px 15px; }
+
+img {
+  width: 270px;
+  height: 300px;
+  border-radius: 20px; }
+
+h1 {
+  color: #2471A3; }
+
+#cadre {
+  border: 1px solid #2471A3;
+  color: #2471A3;
+  text-align: center; }
+
+.h5, h4 {
+  font-size: 20px; }
+
+#COMPETENCES {
+  border: 2px dotted #2471A3; }
+
+h2 {
+  color: #8E44AD; }
+
+p {
+  font-size: 18px; }
+
+h4 {
+  color: #8E44AD; }
+
+h6 {
+  font-size: 20px; }
+
+#CENTRE {
+  background-color: #2471A3;
+  color: white; }
+
+a {
+  color: black; }
+
+#titre {
+  color: white; }
