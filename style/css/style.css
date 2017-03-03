@@ -19,7 +19,7 @@ h1 {
   font-size: 20px; }
 
 #COMPETENCES {
-   border: 2px dotted #2471A3; }
+  border: 2px dotted #2471A3; }
 
 h2 {
   color: #8E44AD; }
@@ -42,3 +42,23 @@ a {
 
 #titre {
   color: white; }
+
+nav {
+  padding: 0;
+  margin: 0; }
+  nav a {
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 16px;
+    color: #8E44AD; }
+  nav a:hover {
+    background-color: #727272;
+    opacity: 0.8; }
+
+li {
+  display: inline;
+  list-style: none; }
+
+button {
+  background-color: lightgrey;
+  border-radius: 12px 0 12px 0; }
